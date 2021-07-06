@@ -206,7 +206,7 @@ class Reporter {
       imageCardsBuffer.write("""
 <div class="col-md-3">
   <div class="card mb-3 shadow-sm">
-    <img class="card-img-top" style="width: 100%; display: block;" src="./$imagePath" data-holder-rendered="true">
+    <img class="card-img-top" style="width: 100%; display: block;" src=".$imagePath" data-holder-rendered="true">
     <div card="card-body">
       <p class="card-text">$imagePath</p>
     </div>
